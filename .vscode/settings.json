@@ -4,13 +4,13 @@
             "alias": "volkerssohn_d",
             "type": "file",
             "path": "c:\\Users\\volkerssohn\\AppData\\Local\\Programs\\Microsoft VS Code\\volkerssohn_d.duckdb",
-            "attached": true
+            "attached": false
         },
         {
             "alias": "volkerssohn_p",
             "type": "file",
             "path": "c:\\Users\\volkerssohn\\AppData\\Local\\Programs\\Microsoft VS Code\\volkerssohn_p.duckdb",
-            "attached": true
+            "attached": false
         }
     ],
     "duckdb.defaultDatabase": "volkerssohn_p",
@@ -28,5 +28,11 @@
             "driver": "DuckDB"
         }
     ],
-    "sqltools.useNodeRuntime": true
+    "sqltools.useNodeRuntime": true,
+    "workbench.editorAssociations": {
+        "*.parquet": "duckdb.dataFileViewer",
+        "*.csv": "duckdb.dataFileViewer",
+        "*.tsv": "duckdb.dataFileViewer",
+        "*.xlsx": "duckdb.dataFileViewer"
+    }
 }
